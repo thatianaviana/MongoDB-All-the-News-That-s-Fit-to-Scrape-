@@ -1,0 +1,73 @@
+body { 
+    background: url("http://www.anasfim.com/p/2018/04/background-of-old-vintage-newspapers-stock-photo-ronstik-13732950-inside-newspaper-background-image.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+  
+  
+  textarea, input {
+    display: block;
+    width: 100%;
+    /*background-color: #FCF5C7;*/
+  }
+  input {
+    height: 36px;
+    font-size: 24px;
+  }
+  textarea {
+    height: 200px;
+    font-size: 18px;
+  }
+  
+  h2{
+    color:lightblue;
+    text-align: center;
+  }
+
+  h1 {
+      color: black;
+      text-align: center;
+      background-color: white;
+
+  }
+  
+  .page-title{
+    margin-bottom: 25px;
+  }
+  .panel{
+    position: relative;
+    padding: 15px 10px;
+    /*padding-bottom:15px;*/
+  }
+  
+  .save-button, .note-button{
+    position:absolute;
+    top:10px;
+    right: 20px;
+  }
+  
+  .delete-button{
+    position:absolute;
+    top:10px;
+    right: 140px;
+  }
+  
+  .article-title{
+    font-size:18px;
+  }
+  
+  #scrape-button{
+    padding:10px 20px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left:20px;
+  }
+  
